@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуга</title>
+    <link rel="icon" href="https://medmobil.ru/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="service.css">
+</head>
+
+<body>
+    <section class="service-hero">
+        <div class="container">
+            <div class="service-hero__wrpper">
+                <div class="service-hero__info">
+                    <h1 class="service-hero__title">Перевозка из больницы домой</h1>
+                    <div class="service-hero__btns">
+                        <button class="service-hero__btn btn-reset btn btn_trnsp">Рассчитать</button>
+                        <button class="service-hero__btn btn-reset btn btn_blue">Заказать</button>
+                    </div>
+                </div>
+                <img src="https://medmobil.ru/img/2.aa5d63f2.png" alt="" class="service-hero__img">
+            </div>
+        </div>
+    </section>
+    <section class="service-adv">
+        <div class="container">
+            <div class="service-adv__list">
+                <div class="service-adv__item">
+                    <img src="https://medmobil.ru/img/01_Data_Base_x2.9b7c9dac.png" alt="" class="service-adv__img">
+                    <p class="service-adv__text">Постоянно пополняемая база перевозчиков из регионов РФ и ближнего
+                        зарубежья</p>
+                </div>
+                <div class="service-adv__item">
+                    <img src="https://medmobil.ru/img/02_Ambulance_x2.4b87d7cd.png" alt="" class="service-adv__img">
+                    <p class="service-adv__text">Круглосуточное медицинское такси по предварительно согласованным
+                        заявкам</p>
+                </div>
+                <div class="service-adv__item">
+                    <img src="https://medmobil.ru/img/03_Route_x2.f0449cbf.png" alt="" class="service-adv__img">
+                    <p class="service-adv__text">Междугородние перевозки инвалидов и лежачих больных</p>
+                </div>
+                <div class="service-adv__item">
+                    <img src="https://medmobil.ru/img/04_Transport_x2.0cc123c4.png" alt="" class="service-adv__img">
+                    <p class="service-adv__text">Железнодорожные, авиа- и морские перевозки</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-rules">
+        <div class="container">
+            <div class="service-rules__wrapper">
+                <img src="https://medmobil.ru/img/1.7b951743.png" alt="" class="service-rules__img">
+                <div class="service-rules__info">
+                    <p class="service-rules__caption">Правила перевозки больных</p>
+                    <ul class="service-rules__list">
+                        <li>Покушать лучше не позже, чем за 2 часа до поездки (а лучше всего – запланировать ее на ранее
+                            утро натощак, чтобы избежать укачивания).</li>
+                        <li>Прием лекарств прекращать не следует.</li>
+                        <li>Перед тем, как покинуть дом, нужно постараться опорожнить кишечник и мочевой пузырь.</li>
+                        <li>Заранее необходимо освободить путь от постели больного до дверей, от дверей до калитки (в
+                            частном доме), чтобы санитары смогли перенести носилки с пациентом беспрепятственно.</li>
+                        <li>При перевозке на небольшие расстояния лучше воздержаться от употребления воды и пищи, чтобы
+                            не
+                            спровоцировать укачивание и рвоту.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-who">
+        <div class="container">
+            <div class="service-who__list">
+                <div class="service-who__item">
+                    <div class="service-who__icon">
+                        <img src="/img/who-01.svg" alt="">
+                    </div>
+                    <p class="service-who__caption">Родители</p>
+                    <p class="service-who__text">Существуют особые правила, перевозки родителей</p>
+                </div>
+                <div class="service-who__item">
+                    <div class="service-who__icon">
+                        <img src="/img/who-02.svg" alt="">
+                    </div>
+                    <p class="service-who__caption">Дети</p>
+                    <p class="service-who__text">Существуют особые правила, перевозки детей</p>
+                </div>
+                <div class="service-who__item">
+                    <div class="service-who__icon">
+                        <img src="/img/who-03.svg" alt="">
+                    </div>
+                    <p class="service-who__caption">Спортсмены</p>
+                    <p class="service-who__text">Существуют особые правила, перевозки спортсменов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="service-heading">
+        <div class="container">
+            <p>Расчёт перевозки</p>
+        </div>
+    </div>
+    <section class="service-count">
+        <div class="container">
+            <div class="service-steps">
+                <div class="service-steps__item is-active">
+                    <div class="service-steps__number">1</div>
+                    <p class="service-steps__caption">Поездка</p>
+                </div>
+                <div class="service-steps__item">
+                    <div class="service-steps__number">2</div>
+                    <p class="service-steps__caption">Данные пациента</p>
+                </div>
+                <div class="service-steps__item">
+                    <div class="service-steps__number">3</div>
+                    <p class="service-steps__caption">Информация об услуге</p>
+                </div>
+                <div class="service-steps__item">
+                    <div class="service-steps__number">4</div>
+                    <p class="service-steps__caption">Выбор исполнителя</p>
+                </div>
+            </div>
+            <form class="service-form">
+                <p class="service-form__caption">Поездка<sup>*</sup> <img
+                        src="https://medmobil.ru/img/info_icon.259fb2e3.svg" alt="" class="service-form__tooltip"></p>
+                <div class="service-form__group service-form__group_radio">
+                    <label for="srv-region" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-region" name="drive" checked>
+                        <span class="radiobutton__pane"></span>
+                        По городу / региону
+                    </label>
+                    <label for="srv-rus" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-rus" name="drive">
+                        <span class="radiobutton__pane"></span>
+                        По России
+                    </label>
+                    <label for="srv-country" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-country" name="drive">
+                        <span class="radiobutton__pane"></span>
+                        Между странами
+                    </label>
+                </div>
+                <div class="service-form__group">
+                    <label for="srv-weight" class="service-form__label">
+                        <p class="service-form__caption">Вес</p>
+                        <input type="number" name="srv-weight" id="srv-weight" class="service-form__input"
+                            placeholder="Кг">
+                    </label>
+                    <label for="srv-age" class="service-form__label">
+                        <p class="service-form__caption">Возраст</p>
+                        <input type="number" name="srv-age" id="srv-age" class="service-form__input" placeholder="Лет">
+                    </label>
+                    <label for="srv-floor" class="service-form__label">
+                        <p class="service-form__caption">Лифт / этаж</p>
+                        <input type="number" name="srv-floor" id="srv-floor" class="service-form__input"
+                            placeholder="0">
+                    </label>
+                    <label for="srv-persons" class="service-form__label">
+                        <p class="service-form__caption">Число сопровождающих</p>
+                        <input type="number" name="srv-persons" id="srv-persons" class="service-form__input"
+                            placeholder="-">
+                    </label>
+                </div>
+                <p class="service-form__caption">Марка авто:</p>
+                <div class="service-form__group service-form__group_radio">
+                    <label for="srv-renault" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-renault" name="car" checked>
+                        <span class="radiobutton__pane"></span>
+                        Рено
+                    </label>
+                    <label for="srv-patriot" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-patriot" name="car">
+                        <span class="radiobutton__pane"></span>
+                        Патриот
+                    </label>
+                    <label for="srv-lada" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-lada" name="car">
+                        <span class="radiobutton__pane"></span>
+                        Лада
+                    </label>
+                </div>
+                <p class="service-form__caption">Вид перевозки:</p>
+                <div class="service-form__group service-form__group_radio">
+                    <label for="srv-sanitary" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-sanitary" name="type" checked>
+                        <span class="radiobutton__pane"></span>
+                        Санитарная
+                    </label>
+                    <label for="srv-ambulance" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-ambulance" name="type">
+                        <span class="radiobutton__pane"></span>
+                        Скорая
+                    </label>
+                    <label for="srv-reanimation" class="service-form__label radiobutton__label">
+                        <input type="radio" class="radiobutton" id="srv-reanimation" name="type">
+                        <span class="radiobutton__pane"></span>
+                        Реанимация
+                    </label>
+                </div>
+                <button class="btn btn_blue btn-reset service-form__submit" type="submit">Рассчитать</button>
+            </form>
+        </div>
+    </section>
+    <div class="service-heading">
+        <div class="container">
+            <p>Поставщики, предоставляющие услуги</p>
+        </div>
+    </div>
+    <section class="service-providers">
+        <div class="container">
+            <div class="service-providers__list">
+                <!-- Item -->
+                <div class="services__item">
+                    <div class="service-providers__left">
+                        <div class="service-providers__circle">
+                            <img src="data:image/png;base64,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"
+                                alt="" class="service-providers__img">
+                        </div>
+                    </div>
+                    <div class="services__content">
+                        <p class="services__caption">ООО "Возим"</p>
+                        <p class="services__description">Описание компании, сколько лет на рынке, информация о лицензиях
+                            м наградах, количестве сотрудников, автопарке и т.д.</p>
+                        <div class="services__bottom">
+                            <p class="services__price">Стоимость услуги <span>от <b>2 400 ₽</b></span></p>
+                            <div class="services__btns">
+                                <a href="" class="btn-reset services__btn btn btn_trnsp">Подробнее</a>
+                                <button class="btn-reset services__btn btn btn_blue">Заказать услугу</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item END-->
+                <!-- Item -->
+                <div class="services__item">
+                    <div class="service-providers__left">
+                        <div class="service-providers__circle">
+                            <img src="https://medmobil.ru/img/02_x1.9866e6f0.png" alt="" class="service-providers__img">
+                        </div>
+                    </div>
+                    <div class="services__content">
+                        <p class="services__caption">GLOBAL FLIGHT</p>
+                        <p class="services__description">Описание компании, сколько лет на рынке, информация о лицензиях
+                            м наградах, количестве сотрудников, автопарке и т.д.</p>
+                        <div class="services__bottom">
+                            <p class="services__price">Стоимость услуги <span>от <b>2 400 ₽</b></span></p>
+                            <div class="services__btns">
+                                <a href="" class="btn-reset services__btn btn btn_trnsp">Подробнее</a>
+                                <button class="btn-reset services__btn btn btn_blue">Заказать услугу</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item END-->
+                <!-- Item -->
+                <div class="services__item">
+                    <div class="service-providers__left">
+                        <div class="service-providers__circle">
+                            <img src="data:image/png;base64,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"
+                                alt="" class="service-providers__img">
+                        </div>
+                    </div>
+                    <div class="services__content">
+                        <p class="services__caption">ЗАО Крылья</p>
+                        <p class="services__description">Описание компании, сколько лет на рынке, информация о лицензиях
+                            м наградах, количестве сотрудников, автопарке и т.д.</p>
+                        <div class="services__bottom">
+                            <p class="services__price">Стоимость услуги <span>от <b>2 400 ₽</b></span></p>
+                            <div class="services__btns">
+                                <a href="" class="btn-reset services__btn btn btn_trnsp">Подробнее</a>
+                                <button class="btn-reset services__btn btn btn_blue">Заказать услугу</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item END-->
+            </div>
+        </div>
+    </section>
+    <div class="service-heading">
+        <div class="container">
+            <p>Отзывы об услуге</p>
+        </div>
+    </div>
+    <section class="service-reviews">
+        <div class="container">
+            <div class="swiper js-reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-reviews__item">
+                            <div class="service-reviews__heading">
+                                <img src="/img/rev-img.jpg" class="service-reviews__img" alt="">
+                                <div class="service-reviews__info">
+                                    <p class="service-reviews__name">Иван Пертович</p>
+                                    <p class="service-reviews__age">79 лет</p>
+                                </div>
+                            </div>
+                            <div class="service-reviews__content">
+                                <p>Все было отлично, машину подали вовремя, машина была полностью оборудованна,
+                                    стоимость также соответствовала заявленной. Спасибо за внимательное отношение к
+                                    пассажирам!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-reviews__item">
+                            <div class="service-reviews__heading">
+                                <img src="/img/rev-img.jpg" class="service-reviews__img" alt="">
+                                <div class="service-reviews__info">
+                                    <p class="service-reviews__name">Иван Пертович</p>
+                                    <p class="service-reviews__age">79 лет</p>
+                                </div>
+                            </div>
+                            <div class="service-reviews__content">
+                                <p>Все было отлично, машину подали вовремя, машина была полностью оборудованна,
+                                    стоимость также соответствовала заявленной. Спасибо за внимательное отношение к
+                                    пассажирам!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-reviews__item">
+                            <div class="service-reviews__heading">
+                                <img src="/img/rev-img.jpg" class="service-reviews__img" alt="">
+                                <div class="service-reviews__info">
+                                    <p class="service-reviews__name">Иван Пертович</p>
+                                    <p class="service-reviews__age">79 лет</p>
+                                </div>
+                            </div>
+                            <div class="service-reviews__content">
+                                <p>Все было отлично, машину подали вовремя, машина была полностью оборудованна,
+                                    стоимость также соответствовала заявленной. Спасибо за внимательное отношение к
+                                    пассажирам!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-reviews__item">
+                            <div class="service-reviews__heading">
+                                <img src="/img/rev-img.jpg" class="service-reviews__img" alt="">
+                                <div class="service-reviews__info">
+                                    <p class="service-reviews__name">Иван Пертович</p>
+                                    <p class="service-reviews__age">79 лет</p>
+                                </div>
+                            </div>
+                            <div class="service-reviews__content">
+                                <p>Все было отлично, машину подали вовремя, машина была полностью оборудованна,
+                                    стоимость также соответствовала заявленной. Спасибо за внимательное отношение к
+                                    пассажирам!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-revirews__navigation">
+                <button class="service-revirews__btn service-revirews__btn_prev btn-reset reviews-slider-nav-prev">
+                    <svg width="28" height="22" viewBox="0 0 28 22" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.2473 0.827971L0.625924 10.3115C0.273185 10.6995 0.280081 11.2941 0.641726 11.6738L9.2478 20.7102C9.66023 21.1432 10.3484 21.1516 10.7712 20.7288C11.1775 20.3225 11.188 19.6672 10.7951 19.2481L4 12H27C27.5523 12 28 11.5523 28 11C28 10.4477 27.5523 10 27 10H4L10.8368 2.2516C11.2096 1.82913 11.1896 1.18963 10.7912 0.791231C10.3605 0.36047 9.65708 0.377208 9.2473 0.827971Z" />
+                        </svg>                        
+                  </button>
+                  <button class="service-revirews__btn service-revirews__btn_next btn-reset reviews-slider-nav-next">
+                    <svg width="28" height="22" viewBox="0 0 28 22" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.7527 0.827971L27.3741 10.3115C27.7268 10.6995 27.7199 11.2941 27.3583 11.6738L18.7522 20.7102C18.3398 21.1432 17.6516 21.1516 17.2288 20.7288C16.8225 20.3225 16.812 19.6672 17.2049 19.2481L24 12H1C0.447716 12 0 11.5523 0 11C0 10.4477 0.447716 10 1 10H24L17.1632 2.2516C16.7904 1.82913 16.8104 1.18963 17.2088 0.791231C17.6395 0.36047 18.3429 0.377208 18.7527 0.827971Z" />
+                        </svg>                        
+                  </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-faq service-faq">
+        <div class="container">
+          <div class="services-faq__wrapper">
+            <div class="services-faq__left">
+              <p class="services-faq__title">
+                Часто задаваемые вопросы
+              </p>
+              <p class="services-faq__caption">
+                Здесь Вы можете найти ответы на наиболее часто возникающие вопросы.
+              </p>
+              <!-- Item -->
+              <div class="services-faq__item">
+                <button class="btn-reset services-faq__btn collapsed" data-toggle="collapse"  data-target="#faqOne">
+                  На каком автомобиле я поеду?
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00054 14.1428C9.3295 14.1428 9.65863 14.0172 9.90933 13.7661L16.3375 7.33758C16.8398 6.83535 16.8398 6.02173 16.3375 5.5195C15.8353 5.01726 15.0218 5.01726 14.5196 5.5195L9.00054 11.041L3.48028 5.5205C2.97808 5.01827 2.16451 5.01827 1.6623 5.5205C1.16009 6.02273 1.16009 6.83636 1.6623 7.33858L8.09053 13.7671C8.34165 14.0182 8.67108 14.1428 9.00054 14.1428Z" fill="#747474"/>
+                    </svg>                
+                </button>
+                <p class="services-faq__hide collapse" id="faqOne">
+                  Все перевозчики, допущенные к транспортировке пациентов, обладают современным автопарком. Это означает, что к вам приезжает автомобиль, оборудованный всем необходимым специализированным оборудованием для комфортной медицинской перевозки в соответствии с условиями вашего заказа – то есть в зависимости от ваших потребностей. Например, в одном случае необходимы носилки-лодочки, в другом – инвалидное кресло.
+                </p>
+              </div>
+              <!-- Item end -->
+               <!-- Item -->
+               <div class="services-faq__item">
+                <button class="btn-reset services-faq__btn collapsed" data-toggle="collapse"  data-target="#faqTwo">
+                  Как понять, сколько будет стоить услуга по транспортировке?
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00054 14.1428C9.3295 14.1428 9.65863 14.0172 9.90933 13.7661L16.3375 7.33758C16.8398 6.83535 16.8398 6.02173 16.3375 5.5195C15.8353 5.01726 15.0218 5.01726 14.5196 5.5195L9.00054 11.041L3.48028 5.5205C2.97808 5.01827 2.16451 5.01827 1.6623 5.5205C1.16009 6.02273 1.16009 6.83636 1.6623 7.33858L8.09053 13.7671C8.34165 14.0182 8.67108 14.1428 9.00054 14.1428Z" fill="#747474"/>
+                    </svg>                
+                </button>
+                <div class="services-faq__hide collapse" id="faqTwo">
+                  <p>Стоимость транспортировки может зависеть, в первую очередь, от следующих факторов:</p>
+                  <ul>
+                  <li>город / населенный пункт, в котором вы осуществляете заказ;</li>
+                  <li>расстояние до пункта назначения, количество пунктов назначения;</li>
+                  <li>требования к транспортному средству (зависит от набора необходимых вам опций для перевозки).</li>
+                  <li>Фактическую и окончательную стоимость транспортировки вы увидите на последнем этапе оформления заказа, когда на основании ваших пожеланий свои предложения выставят перевозчики, готовые принять ваш заказ. Вы сможете выбрать вариант, устраивающий вас по стоимости и другим параметрам.</li>
+                </ul>
+                  <p>Во время поездки указанная стоимость не может быть увеличена по желанию перевозчика, но подлежит изменению, если:</p>
+                  <ul>
+                  <li>вы решили изменить конечный пункт поездки, что может существенно повлиять на расстояние от места посадки до нового пункта назначения;</li>
+                  <li>вы скрыли важные детали при оформлении заказа: избыточный вес пациента, необходимость ручного спуска или подъема по лестничной клетке, отсутствие у пациента чистого белья или одежды и другие объективные факторы, влияющие на комфорт и безопасность транспортировки;</li>
+                  <li>время ожидания вас на месте посадки окажется сверх установленного и объявленного перевозчиком и согласованного с вами заранее.</li>
+                </ul>
+              </div>
+              </div>
+              <!-- Item end -->
+               <!-- Item -->
+               <div class="services-faq__item">
+                <button class="btn-reset services-faq__btn collapsed" data-toggle="collapse"  data-target="#faqThree">
+                  Можно ли сопровождать больного?
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00054 14.1428C9.3295 14.1428 9.65863 14.0172 9.90933 13.7661L16.3375 7.33758C16.8398 6.83535 16.8398 6.02173 16.3375 5.5195C15.8353 5.01726 15.0218 5.01726 14.5196 5.5195L9.00054 11.041L3.48028 5.5205C2.97808 5.01827 2.16451 5.01827 1.6623 5.5205C1.16009 6.02273 1.16009 6.83636 1.6623 7.33858L8.09053 13.7671C8.34165 14.0182 8.67108 14.1428 9.00054 14.1428Z" fill="#747474"/>
+                    </svg>                
+                </button>
+                <div class="services-faq__hide collapse" id="faqThree">
+                  <p>Вы можете выбрать такую опцию при заполнении формы заказа и указать несколько сопровождающих, тогда перевозчик будет подбирать для вас соответствующий транспорт. Medmobil всегда советует сопровождать маломобильных пациентов. Все автомобили перевозчиков предусматривают минимум одно посадочное место для сопровождающего.</p>
+                </div>
+              </div>
+              <!-- Item end -->
+               <!-- Item -->
+               <div class="services-faq__item">
+                <button class="btn-reset services-faq__btn collapsed" data-toggle="collapse"  data-target="#faqfour">
+                  За какое время машина приедет ко мне?
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00054 14.1428C9.3295 14.1428 9.65863 14.0172 9.90933 13.7661L16.3375 7.33758C16.8398 6.83535 16.8398 6.02173 16.3375 5.5195C15.8353 5.01726 15.0218 5.01726 14.5196 5.5195L9.00054 11.041L3.48028 5.5205C2.97808 5.01827 2.16451 5.01827 1.6623 5.5205C1.16009 6.02273 1.16009 6.83636 1.6623 7.33858L8.09053 13.7671C8.34165 14.0182 8.67108 14.1428 9.00054 14.1428Z" fill="#747474"/>
+                    </svg>                
+                </button>
+                <div class="services-faq__hide collapse" id="faqfour">
+                  <p>Время прибытия автомобиля к вам вы указываете самостоятельно в данных вашего заказа. При этом надо понимать, что поездки в час-пик, в труднодоступные и удаленные от городской или сельской инфраструктуры места могут потребовать большего времени.</p>
+                  <p>Учитывая, что услуги по медицинской транспортировке не относятся к услугам по оказанию экстренной и неотложной медицинской помощи, вы в большинстве случаев имеете возможность продумать время своей поездки заранее, тем самым обеспечивая гарантированный приезд автомобиля в назначенный срок.</p>
+                  <p>При наличии большого списка пожеланий и требований к перевозке время прибытия перевозчика в назначенное место может увеличиваться.</p>
+                </div>
+              </div>
+              <!-- Item end -->
+               <!-- Item -->
+               <div class="services-faq__item">
+                <button class="btn-reset services-faq__btn collapsed" data-toggle="collapse"  data-target="#faqFive">
+                  Какие документы нужны для перевозки пациента?
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00054 14.1428C9.3295 14.1428 9.65863 14.0172 9.90933 13.7661L16.3375 7.33758C16.8398 6.83535 16.8398 6.02173 16.3375 5.5195C15.8353 5.01726 15.0218 5.01726 14.5196 5.5195L9.00054 11.041L3.48028 5.5205C2.97808 5.01827 2.16451 5.01827 1.6623 5.5205C1.16009 6.02273 1.16009 6.83636 1.6623 7.33858L8.09053 13.7671C8.34165 14.0182 8.67108 14.1428 9.00054 14.1428Z" fill="#747474"/>
+                    </svg>                
+                </button>
+                <div class="services-faq__hide collapse" id="faqFive">
+                  <p>Паспорт – документ, необходимый в любом случае.</p>
+                  <p>Перечень иных документов зависит от целей поездки и условий заказа.</p>
+                  <p>Например, в случае транспортировки пациента в стационар необходимо иметь с собой предметы личной гигиены, сменную одежду, результаты медицинского обследования и иные документы медицинского характера, минимальный набор бытовых вещей (ложка, чашка и др.).</p>
+                  <p>Если маршрут следования включает в себя пересечение границы, то пакет необходимых документов устанавливается перевозчиком индивидуально.</p>
+                  <p>Независимо от цели поездки Medmobil всегда советует иметь при себе лекарства, которые вы принимаете постоянно.</p>
+                </div>
+              </div>
+              <!-- Item end -->
+               <!-- Item -->
+               <div class="services-faq__item">
+                <button class="btn-reset services-faq__btn collapsed" data-toggle="collapse"  data-target="#faqsix">
+                  Могу ли я сам выбрать необходимый мне транспорт?
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00054 14.1428C9.3295 14.1428 9.65863 14.0172 9.90933 13.7661L16.3375 7.33758C16.8398 6.83535 16.8398 6.02173 16.3375 5.5195C15.8353 5.01726 15.0218 5.01726 14.5196 5.5195L9.00054 11.041L3.48028 5.5205C2.97808 5.01827 2.16451 5.01827 1.6623 5.5205C1.16009 6.02273 1.16009 6.83636 1.6623 7.33858L8.09053 13.7671C8.34165 14.0182 8.67108 14.1428 9.00054 14.1428Z" fill="#747474"/>
+                    </svg>                
+                </button>
+                <div class="services-faq__hide collapse" id="faqsix">
+                  <p>При заполнении формы заказа вы можете выбрать тип транспортного средства (автомобиль / самолет / водный транспорт / поезд), а также саму услугу (скорая помощь / санитарная перевозка / реанимация). Такая возможность есть как у зарегистрированного, так и у незарегистрированного пользователя. У пользователя, зарегистрированного в сервисе Medmobil, есть дополнительная опция выбора конкретного перевозчика.</p>
+                  <p>Марку и модель транспортного средства при необходимости можно уточнить у перевозчика.</p>
+                </div>
+              </div>
+              <!-- Item end -->
+               <!-- Item -->
+               <div class="services-faq__item">
+                <button class="btn-reset services-faq__btn collapsed" data-toggle="collapse"  data-target="#faqSeven">
+                  С кем заключается договор на перевозку?
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00054 14.1428C9.3295 14.1428 9.65863 14.0172 9.90933 13.7661L16.3375 7.33758C16.8398 6.83535 16.8398 6.02173 16.3375 5.5195C15.8353 5.01726 15.0218 5.01726 14.5196 5.5195L9.00054 11.041L3.48028 5.5205C2.97808 5.01827 2.16451 5.01827 1.6623 5.5205C1.16009 6.02273 1.16009 6.83636 1.6623 7.33858L8.09053 13.7671C8.34165 14.0182 8.67108 14.1428 9.00054 14.1428Z" fill="#747474"/>
+                    </svg>                
+                </button>
+                <div class="services-faq__hide collapse" id="faqSeven">
+                  <p>Договор на перевозку заключается между вами и исполнителем услуги – перевозчиком.</p>
+                  <p>Medmobil оказывает информационные услуги о спросе пациентов на услуги по транспортировке, а также предоставляет пациентам через интернет-сайт техническую возможность сообщить о своем желании воспользоваться транспортной услугой, а перевозчикам – о своем желании такую услугу оказать.</p>
+                </div>
+              </div>
+              <!-- Item end -->
+            </div>
+            <div class="services-faq__img">
+              <img src="./img/faq-bg.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="service-heading">
+        <div class="container">
+            <p>Другие услуги</p>
+        </div>
+    </div>
+    <section class="service-other">
+        <div class="container">
+            <div class="service-other__item">
+                <p class="service-other__caption">По месту назначения</p>
+                <ul class="service-other__list">
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих в реабилитационный центр</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих на дачу</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих на отдых</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих на мрт</a></li>
+                </ul>
+            </div>
+            <div class="service-other__item">
+                <p class="service-other__caption">По стоимости:</p>
+                <ul class="service-other__list">
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка больного дешевая</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка больного недорого</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка больного по акции</a></li>
+                </ul>
+            </div>
+            <div class="service-other__item">
+                <p class="service-other__caption">По типу повреждения:</p>
+                <ul class="service-other__list">
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка больных с переломом</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка больных с вывихом</a></li>
+                </ul>
+            </div>
+            <div class="service-other__item">
+                <p class="service-other__caption">По городам Подмосковья:</p>
+                <ul class="service-other__list">
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих Видное</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих Королёв</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих Люберцы</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих Химки</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих Красногорск</a></li>
+                    <li class="service-other__list-item"><a href="" class="service-other__link">перевозка лежачих Балашиха</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="./js/service.js"></script>
+</body>
+
+</html>
